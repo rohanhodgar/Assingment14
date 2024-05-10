@@ -1,0 +1,60 @@
+.container{
+    height: auto;
+    width: 610px;
+    border: solid 5px rgba(253, 0, 0, 0.959);
+    border-radius: 40px;
+    text-align: center;
+    margin: 150px 700px;
+    padding-left: 80px;
+    background-color: #e7acac;
+    box-shadow: 10px 10px 15px rgb(226, 44, 44);
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.container:hover {
+    background-color: #e74553;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 10px rgb(199, 15, 15);
+}
+
+.button {
+    margin-left: 110px;
+    border: solid 3px rgb(205, 231, 201);
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    background-color: #64c935;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #4dad44;
+    height: 60px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px 2px rgb(45, 240, 81);
+    font-weight: 600;
+}
+
+.cancelbtn{
+    margin-left: 110px;
+    border: solid 3px rgb(198, 228, 193);
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    background-color: #f30c0c;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.cancelbtn:hover{
+    background-color: #e14949;
+    height: 60px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px 2px rgb(45, 240, 81);
+    font-weight: 600;
+}
